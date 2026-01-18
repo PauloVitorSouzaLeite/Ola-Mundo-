@@ -1,4 +1,3 @@
 # Olá, Mundo! 
-Primeiro repositório do curso de git e github criado.
-
-Criei está 3º linha direamente no site! Que legal. 
+Este é meu primeiro repositório que criei, aqui vou commitar meus exercícios de python e também de html e
+css.
