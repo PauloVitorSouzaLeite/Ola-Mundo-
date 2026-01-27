@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+<body>
+    <h1><em>Site de testes</em></h1>
+    <a href="pagina/pagina2.html" target="_self" rel="next">Ir para a página 2.</a>
+    <h2><em><strong>Imagem</strong></em></h2>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/imagem-pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-media.jpg" type="image/jpg">
+        <source media="(max-width: 1400px)" srcset="imagens/imagem-grande.jpg" type="image/jpg">
+        <img src="imagens/imagem-grande.jpg" alt="Imagem de uma paisagem">
+    </picture>
+    <h2><em><strong>Vídeos</strong></em></h2>
+    <video preload="metadata" width="400px" controls loop>
+        <source src="videos/video1.mp4" type="video/mp4">
+        <p>Infelizmente o vídeo não foi carregado, <a href="videos/video1.mp4" download="video1.mp4" type="video/mp4">Clique aqui para baixá=lo</a></p>
+    </video>
+    <br>
+    <video preload="metadata" width="400px" controls loop>
+        <source src="videos/video2.mp4" type="video/mp4">
+        <p>Infelizmente o vídeo não foi carregado, <a href="videos/video2.mp4" download="video2.mp4" type="video/mp4">Clique aqui para baixá-lo</a></p>
+    </video>
+    <h2><em><strong>Áudios</strong></em></h2>
+    <audio preload="auto" controls loop>
+        <source src="audios/gentle-glow-462586.mp3" type="audio/mp3">
+        <p>O áudio não foi carregado, <a href="audios/gentle-glow-462586.mp3" download="gentle-glow-462586.mp3" type="audio/mp3">Baixe aqui</a></p>
+    </audio>
+    <br>
+    <audio preload="auto" controls loop>
+        <source src="audios/rhythmampwork-462587.mp3" type="audio/mp3">
+        <p>O áudio não foi carregado, <a href="audios/rhythmampwork-462587.mp3" download="rhythmampwork-462587.mp3" type="audio/mp3">Baixe aqui</a></p>
+    </audio>
+    <br>
+    <a href="pagina/pagina2.html" target="_self" rel="next">ir para a página 2</a>
+</body>
+</html>
