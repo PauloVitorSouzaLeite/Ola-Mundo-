@@ -6,28 +6,47 @@
     <title>Documento</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Kaushan+Script&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titan+One&family=Xanh+Mono:ital@0;1&display=swap');
+        body{ 
+            background-image: linear-gradient(to top, #BDE038, #A3AB78);
+            background-attachment: fixed;
+        }
         h1 {
-            border-radius: 10px;
-            background-color: #E0B402;
-            width: fit-content;
             font-family: "Orbitron", sans-serif;
             font-optical-sizing: auto;
-            font-weight: weight;
+            font-weight: 900;
             font-style: normal;
-            padding: 10px;
-            font-size: 3em;
-        }
-
-        ul {
-            list-style-type: none;
+            font-size: 4em;
+            color: #10454F;
         }
         a {
             text-decoration: none;
-            margin: 80px;
+            font-size: 2.3em;
+            width: fit-content;
+            background-color: #506266;
+            margin: 45px;
+            color: black
+        }
+        nav {
+            padding-top: 5px;
+        }
+        li {
+            display: inline-block;
+        }
+        img {
+            margin: 45px;
         }
         header {
             padding: 100px;
             text-align: center;
+        }
+        article {
+            padding: 10px;
+        }
+        h2 {
+            padding: 10px;
+            background-color: #506266;
+            width: fit-content;
+            border-radius: 15px;
         }
     </style>
 </head>
@@ -35,9 +54,16 @@
     <header>
         <h1>Paulo Vitor</h1>
         <nav>
-            <ul>
+            <figure>
+                <ul>
+                    <li><img src="imagens/youtubr.png" width="100px" alt=""></li>
+                    <li><img src="imagens/github-logo.png" width="100px" alt=""></li>
+                    <li><img src="imagens/linkedin-logo.webp" width="100px" alt=""></li>
+                </ul>
+            </figure>
+            <ul type="none">
                 <li><a href="https://www.youtube.com" target="_blank" rel="external">Youtube</a></li>
-                <li><a href="https://github.com/paulovitorsouzaleite" target="_blank">Github</a></li>
+                <li><a href="https://github.com/paulovitorsouzaleite" target="_blank">Github</a><li>
                 <li><a href="https://www.linkedin.com/in/vitor-sousa-leite-b4a03a376" target="_blank" rel="external">Linkedin</a></li>
             </ul>
         </nav>
@@ -46,7 +72,7 @@
         <section>
             <h2>Título 1</h2>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ea veniam necessitatibus nam, neque ut inventore dignissimos, sit ipsum eum eaque sint corporis, doloremque nesciunt itaque temporibus. Nostrum, labore deleniti?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est adipisci repellat tempore voluptates, fugiat sit libero obcaecati, fugit eligendi animi asperiores ullam nesciunt sint ex quaerat dicta facilis optio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ea veniam necessitatibus nam, neque ut inventore dignissimos, sit ipsum eum eaque sint corporis, doloremque nesciunt itaque temporibus. Nostrum, labore deleniti?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est adipisci repellat tempore voluptates, fugiat sit libero obcaecati, fugit eligendi animi asperiores ullam nesciunt sint ex quaerat dicta facilis optio.</p>
             </article>
         </section>
         <section>
