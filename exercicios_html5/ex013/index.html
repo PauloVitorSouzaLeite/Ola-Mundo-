@@ -5,65 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Kaushan+Script&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titan+One&family=Xanh+Mono:ital@0;1&display=swap');
+        @font-face {
+            font-family: "Fonte1";
+            src: url(fontes/Smile\ Delight\ \(Demo_Font\).otf) format(opentype);
+        }
+        @font-face {
+            font-family: "fonte0";
+            src: url(fontes/CrackedBold\ Regular.ttf);
+        }
         body{ 
-            background-image: linear-gradient(to top, #BDE038, #A3AB78);
+            background-image: linear-gradient(to bottom, #D3D4D4, #7C9A4D);
             background-attachment: fixed;
         }
         h1 {
-            font-family: "Orbitron", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 900;
-            font-style: normal;
-            font-size: 4em;
+            background-image: linear-gradient(to right, #009B77 , #7C9A4D);
+            font-family: "fonte0", sans-serif;
+            font-size: 6em;
             color: #10454F;
+            padding: 5px;
+            width: fit-content;
+            padding-block: 40px;
+            border-radius: 30px;
+            display: inline-block;
         }
         a {
             text-decoration: none;
             font-size: 2.3em;
             width: fit-content;
-            background-color: #506266;
+            background-color: #7C9A4D;
             margin: 45px;
-            color: black
-        }
-        nav {
-            padding-top: 5px;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 10px;
         }
         li {
             display: inline-block;
         }
-        img {
-            margin: 45px;
-        }
         header {
-            padding: 100px;
+            padding: 70px;
             text-align: center;
+        }
+        img {
+            padding: 5px 50px;
+        }
+        ul {
+            list-style: none;
         }
         article {
             padding: 10px;
+            background-color: #FF8C42;
+            border-radius: 10px;
+            border-style: ridge;
+            border-color: black;
         }
         h2 {
             padding: 10px;
-            background-color: #506266;
+            background-color: #7C9A4D;
             width: fit-content;
             border-radius: 15px;
+            font-size: 3em;
+            display: inline-block;
+        }
+        section {
+            text-align: center;
+        }
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            text-indent: 15px;
+            font-weight: 900;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Paulo Vitor</h1>
+        <h1>Hello Programmer</h1>
         <nav>
-            <figure>
-                <ul>
-                    <li><img src="imagens/youtubr.png" width="100px" alt=""></li>
-                    <li><img src="imagens/github-logo.png" width="100px" alt=""></li>
-                    <li><img src="imagens/linkedin-logo.webp" width="100px" alt=""></li>
-                </ul>
-            </figure>
-            <ul type="none">
+            <ul>
+                <li><img src="imagens/youtubr.png" alt=""></li>
+                <li><img src="imagens/github-logo.png" alt=""></li>
+                <li><img src="imagens/linkedin-logo.webp" alt=""></li>
+            </ul>
+            <ul>
                 <li><a href="https://www.youtube.com" target="_blank" rel="external">Youtube</a></li>
-                <li><a href="https://github.com/paulovitorsouzaleite" target="_blank">Github</a><li>
+                <li><a href="https://github.com/paulovitorsouzaleite" target="_blank" rel="external">Github</a><li>
                 <li><a href="https://www.linkedin.com/in/vitor-sousa-leite-b4a03a376" target="_blank" rel="external">Linkedin</a></li>
             </ul>
         </nav>
@@ -73,12 +99,14 @@
             <h2>Título 1</h2>
             <article>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ea veniam necessitatibus nam, neque ut inventore dignissimos, sit ipsum eum eaque sint corporis, doloremque nesciunt itaque temporibus. Nostrum, labore deleniti?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est adipisci repellat tempore voluptates, fugiat sit libero obcaecati, fugit eligendi animi asperiores ullam nesciunt sint ex quaerat dicta facilis optio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus aspernatur laudantium amet reiciendis eaque error possimus quasi expedita excepturi, consequuntur dignissimos odit maxime alias pariatur omnis enim quaerat nostrum?</p>
             </article>
         </section>
         <section>
             <h2>Título 2</h2>
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis odit ab modi quis recusandae, dolor aut! Doloremque, dolor, labore autem, debitis optio veritatis quam magnam odio eveniet consectetur voluptates? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt ratione iure voluptates ea minima, laudantium maxime dicta cupiditate esse deserunt asperiores unde cumque quae tenetur veritatis exercitationem sequi quam voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempore maxime accusamus nesciunt ducimus quam reprehenderit id delectus, debitis corrupti. Tempore ex esse, facere porro culpa tempora nulla eligendi delectus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure quia reprehenderit minima, ad, voluptates omnis quibusdam architecto at voluptatum magnam nesciunt soluta dolorem! Repellat in incidunt provident voluptas dolore?</p>
             </article>
         </section>
     </main>
